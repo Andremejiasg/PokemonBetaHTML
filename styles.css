@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    
+    font-family: 'Press Start 2P', cursive;
+    background-image: linear-gradient(45deg, rgb(113, 197, 230), rgb(76, 241, 140));
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title  {
+    display: flex;
+    color: #17202A;
+    width: 636px;
+    height: 109px;
+    background-color: #929292;
+    font-size: 40px;
+    align-items: center;
+    border: 10px solid #0e0c0c;
+    justify-content: center;
+}
+
+.elige-mascota{
+    background-color:#e9e5db;
+    width: 260px;
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    border: 3px solid #0e0c0c;
+}
+
+.etiqueta-tarjeta {
+    display: flex;
+    gap: 10px;
+
+}
+
+.tarjeta-pokemon {
+    
+    width: 183px;
+    height: 245px;
+    background-color: #F1948A;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 3px solid #17202A;  
+}
+
+.tarjeta-pokemon img{
+    width: 170px;
+}
+
+#boton-mascota {
+    color: rgb(100, 11, 11);
+    background: linear-gradient(rgb(43, 88, 146), rgb(30, 228, 106) );
+    padding: 5px;
+    margin-top: 30px;
+    width: 155px;
+    height: 58px;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 15px;
+
+}
